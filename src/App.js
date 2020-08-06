@@ -12,6 +12,7 @@ const App = () => {
                 <li><Link to ="/"> Home </Link></li>
                 <li><Link to = "/detail"> Detail </Link></li>
             </ul>
+            
             <Switch>
                 <Route path="/detail"> 
                     <Detail />
